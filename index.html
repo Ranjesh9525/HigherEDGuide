@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HigherEDGuide.Com</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<nav>
+		<div class="Title" ><h1>HigherEDGuide</h1>
+		
+		</div>
+		<div class="menu">
+			
+			
+			<a href="#">Top Universities & Colleges</a>
+			<a href="#">Exams</a>
+			<a href="#">Admissions 2023</a>
+			<a href="#">News</a>
+			<a href="#">Result</a>
+			<a href="#">Write Review</a>
+			
+
+		</div>
+		<div class="icon">
+			
+			<a href="#">Login</a>
+
+		</div>
+	</nav>
+
+
+	<section class="h-text">
+		<i class="fa font-awesome" id="graphics"></i>
+		<h1 data-aos="zoom-in-down" data-aos-delay="150">Find your Dream Here</h1>
+		<input type="text" name="" placeholder="Search for Colleges,Courses,Exams...">
+		<button><i class="fa fa-search"></i></button>
+		
+		
+	</section>
+
+</header>
+<section class="L"><a style="color: antiquewhite;;" href="">Subscribe for latest Update</a></section>
+
+<section class="C">
+	<h1>Take Informed Decisions</h1>
+	<span class="C1"></span>
+</section>
+
+
+
+<DIV Class="cp-showcase">
+	<a href="https://www.collegepravesh.com/college-finder/?filter=true" class="cp-showcase-link cps-1"><div style="background-image: ('COLLEGE.jpg');"></div><div class="cps-info">Colleges</div> </a>
+
+
+
+</DIV>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+	<div class="newsletter">
+		<div data-aos="fade-up" data-aos-offset="200">
+			<h2>Subscribe our Newsletter</h2>
+			<p>We’re a team of non-cynics who truly care for our work.</p>
+		</div>
+		<div class="n-text" data-aos="fade-up-right" data-aos-offset="200">
+			<label>
+				<input type="text" name="" placeholder="Enter your email">
+				<button>Subscribe</button>
+
+			</label>
+		</div>
+	</div>	
+
+
+	<div class="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
+		<div>
+			<h1>Information</h1>
+			
+			
+			<i class="fa fa-whatsapp"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-telegram"></i>
+			<i class="fa fa-twitter"></i>
+			<h4 >HigherEDGuide © Copyright 2023</h4>
+		</div>
+
+
+		<div>
+			<h1>Colleges</h1>
+			<p>Top Medical Colleges</H4>
+			<p>Top Engieering Colleges</h4>
+			<p>Reserch Colleges</h4>
+			<p>Statewise Colleges</h4>
+
+
+		</div>
+
+		<div>
+			<h1>Exams</h1>
+			<p>JEE Advanced</p>
+			<p>JEE Main</p>
+			<p>NEET</p>
+			<p>BITSAT</p>
+			<P></P>
+
+		</div>
+
+		<div>
+			<h1>Help & Support</h1>
+			<p>Privacy policy</p>
+			<p>Term & conditions</p>
+			<p>Technical support</p>
+			<p>Customer care</p>
+
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script>
+	$('.portfolio-item').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+		$('.portfolio-menu ul li').click(function(){
+		$('.portfolio-menu ul li').removeClass('active');
+		$(this).addClass('active');
+
+			var selector = $(this).attr('data-filter');
+		$('.portfolio-item').isotope({
+			filter:selector
+		});
+		return false;
+	});
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+</script>
+</body>
+</html>
